@@ -10,11 +10,12 @@
 html {
   width: 100%;
   height: 100%;
-  background: #1192d3 no-repeat bottom right;
+  background: #1192d3 url(http://wallpapers.cc/files/walls/10076.jpg) no-repeat bottom right;
   background-size: cover;
 }
 
 body {
+  overflow: hidden;
   font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
@@ -78,14 +79,19 @@ ul {
 
 
 .temp {
-	font-size: 72px;
+	font-size: 170px;
 	font-weight: bold;
 	color: white;
-	margin: 0 0 0 350px;
 }
 
 .city {
-	font-size: 48px;
+	font-size: 24px;
 	color: white;
-	margin: 0 0 0 330px;
+	margin: 0 0 0 550px;
+}
+
+.title {
+	font-size: 24px;
+	color: white;
+	margin: 210px 0 0 530px;	
 }

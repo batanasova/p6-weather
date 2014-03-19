@@ -20,8 +20,8 @@ $('button').on('click', function() {
       var city = weather.city;
       
       // Output to hooks in HTML
-      $('.temp').text(temp);
-      $('.city').text(city);
+      $('.temp').text(temp + '° f');
+      $('.city').text(city + ' ,WA');
 
       // See console for all properties of object
       console.log(weather);
