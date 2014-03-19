@@ -13,28 +13,22 @@
   </head>
   <body>
     
-    <div class="row">
-      
-      <div class="columns small-12">
-        <h1 class="temp"> </h1>
-      </div>
-      
-      <div class="columns small-6">
-        <h3 class="wi-thermometer-exterior tomHi"> </h3>
-      </div>
-      
-      <div class="columns small-6">
-        <h3 class="wi-thermometer-internal tomLo"> </h3>
-      </div>
-      
-      <div class="columns small-12">
-        <p class="cityAndState"> </p>
-      </div>
+      <input type="text" id="getWeather"/>
+      <button class="weather-button">Get Weather</button>
+
+<!-- Output Weather --> 
+    <ul>
+      <li class="temp"> </li>
+      <li class="city"> </li>
+    </ul
+
+   
 
     </div> <!-- end .row -->
      
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/plugin.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/scripts.js"></script>
 
